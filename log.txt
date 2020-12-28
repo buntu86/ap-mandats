@@ -1,0 +1,8 @@
+--- Export log at 2020/12/15 22:18:04 ---INFO::OK dir './resources/' exists
+INFO::OK file './resources/urlRoot.txt' exist
+ERROR::Dossier 'actif', n'existe pas. => C:\\Temp\\AP_Mandats\\Projets en cours | actif
+INFO::OK Dossier 'actif' => C:\\Adrien\\z_temp\\Mandats en cours | actif
+ERROR::Dossier 'archive', n'existe pas. => C:\\Temp\\AP_Mandats\\Projets archivés | archivé
+INFO::OK Dossier 'archive' => C:\\Adrien\\z_temp\\Mandats archivés | archivé
+ERROR::Dossier 'archive', n'existe pas. => Z:\\Projets archivés | archivé
+ERROR::Dossier 'archive', n'existe pas. => C:\\Temp\\Mandats\\Archive | archivé

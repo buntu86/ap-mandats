@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="splitRight" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.pillonel.mandats.view.RightPaneController">
+   <children>
+      <HBox fx:id="hbox" alignment="CENTER" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/logoEntreprise.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scrollPane" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane>
+               <children>
+                  <GridPane alignment="center" hgap="10" vgap="10">
+                     <padding>
+                        <Insets bottom="10" left="25" right="25" top="25" />
+                     </padding>
+                        <Label text="Numéro de mandat:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                        <Label text="Nom du mandat:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                        <Label text="Statut:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                        <Label text="Url:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            
+                        <Label fx:id="lbNumMandat" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                        <Label fx:id="lbNomMandat" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="lbStatut" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Hyperlink fx:id="url" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                     <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                     </rowConstraints>
+            
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+
+   </children>
+</AnchorPane>

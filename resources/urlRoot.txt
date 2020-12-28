@@ -1,0 +1,4 @@
+1,C:\Temp\AP_Mandats\Projets archivés;
+1,C:\Adrien\z_temp\Mandats archivés;
+0,C:\Temp\AP_Mandats\Projets en cours;
+0,C:\Adrien\z_temp\Mandats en cours;
